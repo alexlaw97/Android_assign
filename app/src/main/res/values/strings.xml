@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Android_assign</string>
+    <string name="login_btn">Login</string>
+    <string name="title_activity_insert_page">Insert_page</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="lbltitle1">Note</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="Item">Item: </string>
+    <string name="Content">Content: </string>
+    <string name="Title">Title: </string>
+    <string name="note">Note</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="appspecialname">Note It!</string>
+</resources>

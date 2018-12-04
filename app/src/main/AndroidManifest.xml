@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.student.alex.android_assign">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:label="Note It!"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".login_page"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main_page" android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Insert_page"
+            android:label="@string/title_activity_insert_page" android:screenOrientation="portrait"/>
+        <activity android:name=".text_note" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
